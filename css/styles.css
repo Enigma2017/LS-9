@@ -10,11 +10,10 @@
     justify-content: space-around;
 }
 
-
-
 form{
     max-width: 400px;
     padding: 50px;
+    border: 1px solid #c466c4;
 }
 
 .field{
@@ -178,4 +177,14 @@ form{
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  button{
+    margin-top: 40px;
+    padding: 18px 38px;
+    font-size: 20px;
+    border: none;
+    color: #3b4256;
+    background-color: #c466c4;
+    cursor: pointer;
   }
