@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <form>
+        <label class="field">
+            <div class="field-title">Name</div>
+            <input class="field-input" type="text" placeholder="Enter your name">
+        </label>
+        <label class="field">
+            <div class="field-title">Sex</div>
+            <select class="field-input">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="another...">Another...</option>
+            </select>
+        </label>
+        <label class="field">
+            <div class="field-title">Message</div>
+            <textarea class="field-input field-textarea">
+            </textarea>
+        </label>
+        <label class="radio">
+            <input name="name" class="radio-input" type="radio" placeholder="Enter your name">
+            <div class="radio-box">
+                <div class="radio-circle"></div>
+            </div>
+            <div class="radio-text">Name1</div>
+        </label>
+        <label class="radio">
+            <input name="name" class="radio-input" type="radio" placeholder="Enter your name">
+            <div class="radio-box">
+                <div class="radio-circle"></div>
+            </div>
+            <div class="radio-text">Name2</div>
+        </label>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
